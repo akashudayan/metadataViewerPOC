@@ -34,7 +34,7 @@
     "prettier": "prettier src -c",
     "prettier:fix": "prettier src --write",
     "prepare": "yarn husky",
-    "husky": "husky install"
+    "husky": "cd .. && husky install ./frontend/.husky"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
